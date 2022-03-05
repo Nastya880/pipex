@@ -1,6 +1,9 @@
 # pipex
 Project in school 21
-Project without bonus part: 100/100
+#Project without bonus part: 100/100
+
+# Best video about pipe and processes
+https://www.youtube.com/watch?v=6xbLgZpOBi8
 
 # pipe()
 https://docs.microsoft.com/ru-ru/cpp/c-runtime-library/reference/pipe?view=msvc-170 - pipe(fd) - errors:
@@ -21,3 +24,6 @@ mode всегда должен быть указан при использова
 # запуск
 ./pipex infile cmd1 cm2 outfile
 Example: ./pipex Makefile "cat" "wc -l" outfile
+
+# PS
+Пир посоветовал использовать переменную environ для полной информации о команде
